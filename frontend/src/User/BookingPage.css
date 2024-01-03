@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Bona Nova");
+.containerStyle {
+  margin-top: 30px;
+    max-width: 600px;
+    margin-left: 35%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    opacity: 0.88;
+  }
+  
+  .titleStyle {
+    text-align: center;
+    color: #333;
+  }
+  
+  .formStyle {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .labelStyle {
+    font-weight: bold;
+  }
+  
+  .form-select,
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .buttonStyle {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .thankYouMessage {
+    text-align: center;
+    margin-top: 20px;
+    color: #4caf50;
+    font-weight: bold;
+  }
+
+
+
+  /*vaccinehistory.css*/
+
+  .vaccinehistorycontainer{
+    max-width: 1600px;
+    margin-left: 4%;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    opacity: 0.8;
+  }
+
+  .availablevaccine{
+    margin-top: 25px;
+    font-family: Merriweather;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+  }
+
+
+  /*profilepage css*/
+  .Profilecontainer{
+    margin-top: 30px;
+    margin-left: 40%;
+  }
+  .profileh1{
+    margin-left: 10%;
+    font-family: Merriweather;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+  }
+
+.Profileincontainer{
+  width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    opacity: 0.88;
+}
+.profiletext{
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Bona Nova';
+  font-size: 20px;
+} 
+
+/* Button styling */
+button.profilesavechanges,
+button.profileedit {
+  background-color: #aa00ff;
+  color: #fffffffa;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button.profileedit {
+  background-color: #d513a8;
+  width: 100px;
+}
+
+button.profilesavechanges:hover,
+button.profileedit:hover {
+  background-color: #aa00ff;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .Profileincontainer {
+    padding: 15px;
+  }
+
+  button.profilesavechanges,
+  button.profileedit {
+    width: 200%;
+  }
+}
+
+
